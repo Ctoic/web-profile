@@ -1,0 +1,51 @@
+/* Custom styles for the blog post section */
+.blog-post {
+    background-color: #3a3838;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+    color: #fcfcfc;
+}
+
+.blog-post p {
+    color: #fff;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Custom styles for the categories card */
+.card {
+    border: 1px solid #242020;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #bea060;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.list-group-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: #a7d3ff;
+}

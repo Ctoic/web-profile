@@ -1,0 +1,49 @@
+.container-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.project-section {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-section:hover {
+    transform: scale(1.05);
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.project-section p {
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .container-project {
+        justify-content: center;
+    }
+
+    .project-section {
+        width: 80%;
+    }
+}
